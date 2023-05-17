@@ -16,9 +16,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {
-        "laravel/ui": "5.x-dev"
-    },
+    "require": {},
 
     "extra": {
         "laravel": {

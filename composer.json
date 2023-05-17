@@ -18,5 +18,13 @@
     "minimum-stability": "dev",
     "require": {
         "laravel/ui": "5.x-dev"
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Thapelo\\Contact\\ContactServiceProvider"
+            ]
+        }
     }
 }

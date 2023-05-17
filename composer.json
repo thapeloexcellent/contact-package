@@ -1,0 +1,22 @@
+{
+    "name": "thapelo/contact",
+    "description": "this is a test package",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Thapelo\\Contact\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Maluka Thapelo",
+            "email": "thapelo@kayiseit.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/ui": "5.x-dev"
+    }
+}

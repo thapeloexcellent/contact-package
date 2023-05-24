@@ -12,6 +12,14 @@ class ContactServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/views', 'contact');
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
 
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'contact');
+
+        if ($this->app->runningInConsole()) {
+            $this->publishes([
+                __DIR__ . '/views' => base_path('resources/views'),
+            ], 'views');
+        }
+
     }
 
     public function register()
